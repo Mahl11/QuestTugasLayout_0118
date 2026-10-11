@@ -7,4 +7,10 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!-- Background Kartu Profil -->
+    <color name="card_bg_gray">#5A5A5A</color>
+    <color name="card_bg_purple">#6F42C1</color>
+    <color name="card_bg_blue">#0044FF</color>
+    <color name="card_bg_green">#007A33</color>
 </resources>
