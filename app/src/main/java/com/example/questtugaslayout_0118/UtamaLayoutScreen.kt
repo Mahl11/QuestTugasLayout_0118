@@ -27,6 +27,7 @@ fun UtamaLayoutScreen(modifier: Modifier = Modifier) {
             modifier = Modifier.fillMaxSize(),
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
+            // Header Prodi & Universitas
             Text(
                 text = stringResource(id = R.string.title_prodi),
                 fontSize = 24.sp,
@@ -43,6 +44,7 @@ fun UtamaLayoutScreen(modifier: Modifier = Modifier) {
 
             Spacer(modifier = Modifier.height(24.dp))
 
+            // 1. Card 1: Ilham Saputra (Paling Atas)
             ProfileCard(
                 nama = stringResource(id = R.string.nama_card1),
                 nomor = stringResource(id = R.string.nomor_card1),
@@ -54,6 +56,7 @@ fun UtamaLayoutScreen(modifier: Modifier = Modifier) {
                 isCursive = true
             )
 
+            // 2. Card 2: Nabila Putri (Lengkap dengan Nomor Kontak)
             ProfileCard(
                 nama = stringResource(id = R.string.nama_card2),
                 nomor = stringResource(id = R.string.nomor_card2),
@@ -64,6 +67,7 @@ fun UtamaLayoutScreen(modifier: Modifier = Modifier) {
                 alamatColor = colorResource(id = R.color.text_yellow)
             )
 
+            // 3. Card 3: Udin Samsudin
             ProfileCard(
                 nama = stringResource(id = R.string.nama_card3),
                 nomor = stringResource(id = R.string.nomor_card3),
@@ -85,5 +89,15 @@ fun UtamaLayoutScreen(modifier: Modifier = Modifier) {
                 alamatColor = colorResource(id = R.color.text_white)
             )
         }
+
+        // Footer Copyright di bagian paling bawah
+        Text(
+            text = stringResource(id = R.string.footer_copyright),
+            fontSize = 11.sp,
+            color = colorResource(id = R.color.text_footer),
+            modifier = Modifier
+                .align(Alignment.BottomCenter)
+                .padding(bottom = 8.dp)
+        )
     }
 }
