@@ -64,12 +64,22 @@ fun UtamaLayoutScreen(modifier: Modifier = Modifier) {
                 alamatColor = colorResource(id = R.color.text_yellow)
             )
 
-            // 3. Card 3: Udin Samsudin
             ProfileCard(
                 nama = stringResource(id = R.string.nama_card3),
                 nomor = stringResource(id = R.string.nomor_card3),
                 alamat = stringResource(id = R.string.alamat_card3),
                 backgroundColor = colorResource(id = R.color.card_bg_blue),
+                namaColor = colorResource(id = R.color.text_white),
+                nomorColor = colorResource(id = R.color.text_cyan),
+                alamatColor = colorResource(id = R.color.text_white)
+            )
+
+            // 4. Card 4: Zahra Rahmawati
+            ProfileCard(
+                nama = stringResource(id = R.string.nama_card4),
+                nomor = stringResource(id = R.string.nomor_card4),
+                alamat = stringResource(id = R.string.alamat_card4),
+                backgroundColor = colorResource(id = R.color.card_bg_green),
                 namaColor = colorResource(id = R.color.text_white),
                 nomorColor = colorResource(id = R.color.text_cyan),
                 alamatColor = colorResource(id = R.color.text_white)
