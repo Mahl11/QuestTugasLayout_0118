@@ -22,4 +22,9 @@
     <string name="nama_card4">Zahra Rahmawati</string>
     <string name="nomor_card4">085436874190</string>
     <string name="alamat_card4">Gamping, Sleman</string>
+
+    <!-- Footer & Aksesibilitas -->
+    <string name="footer_copyright">Copyright, 2026</string>
+    <string name="desc_logo_kiri">Logo UMY Kiri</string>
+    <string name="desc_logo_kanan">Logo UMY Kanan</string>
 </resources>
