@@ -7,4 +7,9 @@
     <string name="nama_card1">Ilham Saputra</string>
     <string name="nomor_card1">20240140118</string>
     <string name="alamat_card1">Kasihan, Bantul</string>
+
+    <!-- Card 2: Nabila Putri -->
+    <string name="nama_card2">Nabila Putri</string>
+    <string name="nomor_card2">085436874190</string>
+    <string name="alamat_card2">Turi, Sleman</string>
 </resources>
