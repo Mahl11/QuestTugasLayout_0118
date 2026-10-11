@@ -2,4 +2,9 @@
     <string name="app_name">QuestTugasLayout_0118</string>
     <string name="title_prodi">Teknologi Informasi</string>
     <string name="title_univ">Universitas Muhammadiyah Yogyakarta</string>
+
+    <!-- Card 1: Ilham Saputra -->
+    <string name="nama_card1">Ilham Saputra</string>
+    <string name="nomor_card1">20240140118</string>
+    <string name="alamat_card1">Kasihan, Bantul</string>
 </resources>
