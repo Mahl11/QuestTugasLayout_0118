@@ -43,7 +43,6 @@ fun UtamaLayoutScreen(modifier: Modifier = Modifier) {
 
             Spacer(modifier = Modifier.height(24.dp))
 
-            // 1. Card 1: Ilham Saputra
             ProfileCard(
                 nama = stringResource(id = R.string.nama_card1),
                 nomor = stringResource(id = R.string.nomor_card1),
@@ -53,6 +52,17 @@ fun UtamaLayoutScreen(modifier: Modifier = Modifier) {
                 nomorColor = colorResource(id = R.color.text_cyan),
                 alamatColor = colorResource(id = R.color.text_yellow),
                 isCursive = true
+            )
+
+            // 2. Card 2: Nabila Putri
+            ProfileCard(
+                nama = stringResource(id = R.string.nama_card2),
+                nomor = stringResource(id = R.string.nomor_card2),
+                alamat = stringResource(id = R.string.alamat_card2),
+                backgroundColor = colorResource(id = R.color.card_bg_purple),
+                namaColor = colorResource(id = R.color.text_white),
+                nomorColor = colorResource(id = R.color.text_cyan),
+                alamatColor = colorResource(id = R.color.text_yellow)
             )
         }
     }
