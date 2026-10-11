@@ -12,4 +12,9 @@
     <string name="nama_card2">Nabila Putri</string>
     <string name="nomor_card2">085436874190</string>
     <string name="alamat_card2">Turi, Sleman</string>
+
+    <!-- Card 3: Udin Samsudin -->
+    <string name="nama_card3">Udin Samsudin</string>
+    <string name="nomor_card3">085436874190</string>
+    <string name="alamat_card3">Depok, Sleman</string>
 </resources>
