@@ -17,4 +17,9 @@
     <string name="nama_card3">Udin Samsudin</string>
     <string name="nomor_card3">085436874190</string>
     <string name="alamat_card3">Depok, Sleman</string>
+
+    <!-- Card 4: Zahra Rahmawati -->
+    <string name="nama_card4">Zahra Rahmawati</string>
+    <string name="nomor_card4">085436874190</string>
+    <string name="alamat_card4">Gamping, Sleman</string>
 </resources>
