@@ -10,6 +10,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
@@ -41,6 +42,18 @@ fun UtamaLayoutScreen(modifier: Modifier = Modifier) {
             )
 
             Spacer(modifier = Modifier.height(24.dp))
+
+            // 1. Card 1: Ilham Saputra
+            ProfileCard(
+                nama = stringResource(id = R.string.nama_card1),
+                nomor = stringResource(id = R.string.nomor_card1),
+                alamat = stringResource(id = R.string.alamat_card1),
+                backgroundColor = colorResource(id = R.color.card_bg_gray),
+                namaColor = colorResource(id = R.color.text_white),
+                nomorColor = colorResource(id = R.color.text_cyan),
+                alamatColor = colorResource(id = R.color.text_yellow),
+                isCursive = true
+            )
         }
     }
 }
