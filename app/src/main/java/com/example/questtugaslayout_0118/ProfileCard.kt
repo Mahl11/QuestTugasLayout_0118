@@ -18,7 +18,10 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.text.font.FontFamily
+import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
 
 @Composable
 fun ProfileCard(
@@ -26,6 +29,10 @@ fun ProfileCard(
     alamat: String,
     nomor: String? = null,
     backgroundColor: Color,
+    namaColor: Color = Color.White,
+    nomorColor: Color = Color.Unspecified,
+    alamatColor: Color = Color.White,
+    isCursive: Boolean = false,
     modifier: Modifier = Modifier
 ) {
     Card(
@@ -53,11 +60,28 @@ fun ProfileCard(
                 modifier = Modifier.weight(1f),
                 horizontalAlignment = Alignment.Start
             ) {
-                Text(text = nama)
+                Text(
+                    text = nama,
+                    fontSize = if (isCursive) 20.sp else 18.sp,
+                    fontWeight = if (isCursive) FontWeight.Normal else FontWeight.Bold,
+                    fontFamily = if (isCursive) FontFamily.Cursive else FontFamily.Default,
+                    color = namaColor
+                )
+
                 if (!nomor.isNullOrEmpty()) {
-                    Text(text = nomor)
+                    Text(
+                        text = nomor,
+                        fontSize = 12.sp,
+                        fontWeight = FontWeight.Medium,
+                        color = nomorColor
+                    )
                 }
-                Text(text = alamat)
+
+                Text(
+                    text = alamat,
+                    fontSize = 12.sp,
+                    color = alamatColor
+                )
             }
 
             Spacer(modifier = Modifier.width(16.dp))
